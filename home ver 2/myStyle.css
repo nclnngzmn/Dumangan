@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+body{
+	background-color: #f4f9f4 !important;
+}
+p{
+	color: white;
+}
+header{
+	background-color: #343;
+}
+
+/* Header */
+.header-links a:hover,
+.nav-link:hover{
+	color: #c8d5b9;
+}
+
+.container .dropdown-toggle, 
+.container .dropdown-item {
+	font-size: 0.7rem;
+}
+
+.container .dropdown-toggle:hover{
+	color: #74b49b !important;
+}
+
+.container .dropdown-item:hover{
+	background-color: #74b49b !important;
+}
+}
+.header-links a{
+	font-size: .9rem;
+	text-decoration: none;
+	color: #74b49b;
+}
+.nav-link{
+	font-size: 1.2em;
+	color: #74b49b;
+	text-align: left;
+	justify-content: left;
+}
+.navbar-toggler-icon{
+		color: black;
+}
+.basket-icon a{
+	color: #74b49b !important;
+}
+.basket-icon a:hover{
+	color: #c8d5b9 !important;
+}
+
+
+/* Headline */
+.carousel-item{
+	height: 32rem;
+	background-color: black;
+	color: #5c8d89;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right:0;
+}
+.carousel-inner .container{
+	position: absolute;
+	bottom: 20%;
+	left: 0;
+	right:0;
+	padding-bottom: 50px;
+	font-size: 1rem;
+	background-color: rgba(0,0,0,0.6);
+	width: 35%;
+	transform: translateX(-75%);
+}
+.carousel-inner .container img{
+	width: 50%;
+}
+.carousel-inner .container p{
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: .5rem;
+	margin-right:-.5rem;
+	color: white;
+}
+
+.headline img{
+	width:30%;
+}
+.btn-primary{
+	background-color: #68b0ab !important;
+	border: none !important;
+	color: black !important;
+}
+
+.btn-primary:hover{
+	background-color: #c8d5b9 !important;
+}
+
+/* Website Info*/
+.sub-headline {
+	padding-top: 30px;
+	font-size: 3.5rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #74b49b;
+
+
+}
+.first-letter{
+	text-transform: uppercase;
+	font-size: 4.3rem
+}
+.website-description p{
+	color: black;
+	text-align: justify;
+
+}
+.website-info-img {
+	width: 100%;
+	max-width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.behind-story-dumangan img{
+	border-style: dotted;
+	margin-left: 100px;
+}
+
+.behind-story-dumangan .website-description{
+	margin-top: 100px;
+	margin-right: 50px;
+}
+.behind-story-dumangan .container{
+	background-color: #c8d5b9;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+/* Sample Products*/
+.sample-products{
+	background-color: #343;
+
+}
+.product h1{
+	color: #74b49b;
+	padding-top: 3rem;
+	padding-left:5rem;
+	margin-bottom: 3rem;
+}
+.pricing {
+	text-align: center;
+}
+.card{
+	width: 16rem;
+	height: 20rem;
+	margin-left: 3rem;
+	margin-bottom: 3rem;
+}
+.card-img-top{
+	padding-left: 1rem;
+	padding-right:1rem;
+}
+
+.product .btn{
+	margin-bottom: 2rem;
+}
+.product button{
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin-left: 2.7rem;
+}
+
+.btn-dark{
+	border-radius: 30px !important;
+
+}
+
+.btn-dark:hover{
+	background-color: #c8d5b9 !important;
+}
+
+/* Start of About*/
+.about h3{
+	margin-right: 2rem;
+	margin-top: 2rem;
+}
+.about .card{
+	width: 16rem;
+	height: auto;
+	margin-right: 5.5rem;
+	margin-bottom: 3rem;
+	margin-top: 2.5rem;
+	background-color: #c8d5b9;
+}
+.about .card-img-top{
+	padding-left: 1rem;
+	padding-right:1rem;
+	padding-top: 2rem;
+}
+
+
+/* Start of Footer */
+footer{
+	padding: 5rem 0;
+	height: 10vh;
+	background-color: #121212;
+	color: #fff;
+	position: relative; 
+}
+
+.footer-content h5{
+	font-weight: 100;
+	letter-spacing: 3px;
+	text-align: center;
+	align-items: center;
+}
+/* Media sceen */
+
+@media screen and (max-width: 650px){
+	.carousel-inner .container{
+		width: 70%;
+		position:initial;
+		margin-top: 20%;
+		margin-left:55%;
+	}
+	.carousel-inner .container img{
+		width: 60%;
+	}
+	.product button{
+		margin-left: 3.5rem;
+	}
+	.behind-story-dumangan img{
+		margin-left: 70px;
+	}
+
+	.behind-story-dumangan .website-description{
+		margin-top: 10px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.behind-story-dumangan .container{
+		background-color: #c8d5b9;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+	.about h3{
+	margin-right: initial;
+	margin-left: 2rem;
+	}
+	.about .card{
+		width: 16rem;
+		height: auto;
+		margin-right: initial;
+		margin-bottom: 1.5rem;
+		margin-top: 2rem;
+	}
+	.about .card-img-top{
+		padding-left: 1rem;
+		padding-right:1rem;
+		padding-top: 2rem;
+	}
+}
+
+
+
+
+

@@ -1,0 +1,29 @@
+/* Table Products*/
+.farmer-profile{
+	padding: 5rem 0;
+	background-color: #f4f9f4;
+	color: #343;
+	position: relative; 
+	font-family: sans-serif;
+}
+.list-product h5{
+	font-weight: 100;
+	letter-spacing: 3px;
+	text-align: center;
+	align-items: center;
+	font-size: 3.3rem;
+}
+.background-color-table{
+	background-color: #343;
+	color: #fff;
+	letter-spacing: 1.5px;
+}
+/* ADD Button*/
+.add-background h3 {
+	background-color: #343;
+	color: #fff;
+	height: 10vh;
+	text-align: center;
+	letter-spacing: 1.5px;
+	font-family: sans-serif;
+}
