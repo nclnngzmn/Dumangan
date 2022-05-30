@@ -1,2 +1,3 @@
-# Dumangan
-Dumangan, an online web platform project that enables local farmers to market their products at a reasonable price with direct contact to buyers, paving the way for enhancing the agriculture in the country and equalizing income distributions. 
+you can check out the website here --> https://dumanganstore-dmngstr.web.app/index.html
+
+project documentation: https://drive.google.com/drive/folders/1dnipP14TmMXjpdO2w2a613zWTp_pzUGZ?usp=sharing
